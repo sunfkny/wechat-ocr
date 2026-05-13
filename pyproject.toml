@@ -1,17 +1,14 @@
 [project]
 name = "wechat-ocr"
 version = "0.1.0"
-description = "微信OCR Python bindings"
+description = "wechat-ocr Python bindings"
 readme = "README.md"
 authors = [{ name = "sunfkny", email = "sunfkny@gmail.com" }]
 requires-python = ">=3.10"
 dependencies = []
 
-[project.scripts]
-wechat-ocr = "wechat_ocr:main"
-
 [build-system]
-requires = ["scikit-build-core>=0.10", "cmake>=3.20"]
+requires = ["scikit-build-core>=0.10"]
 build-backend = "scikit_build_core.build"
 
 [project.optional-dependencies]
